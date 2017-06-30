@@ -84,3 +84,10 @@ source $ZSH/oh-my-zsh.sh
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 alias ls='ls --color=auto'
+alias vi='vim'
+#export PS1='[\u@\h \W]\$ '
+#export PATH=$PATH:/home/williamzhang/.gem/ruby/2.3.0/bin 
+export VISUAL=vim
+export EDITOR="$VISUAL"
+#export WORKON_HOME=~/envs
+#source /usr/bin/activate.sh
