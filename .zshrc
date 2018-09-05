@@ -84,10 +84,13 @@ source $ZSH/oh-my-zsh.sh
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 alias ls='ls --color=auto'
-alias vi='vim'
-#export PS1='[\u@\h \W]\$ '
-#export PATH=$PATH:/home/williamzhang/.gem/ruby/2.3.0/bin 
+alias vi=vim
+#alias lock="i3lock -i ~/Pictures/lock.png"
+#alias screenshot="scrot -s ~/screenshots/$(date '+%Y%m%d-%H%M%S').jpg"
 export VISUAL=vim
 export EDITOR="$VISUAL"
+#export PS1='[\u@\h \W]\$ '
+#export PATH=$PATH:/home/williamzhang/.gem/ruby/2.3.0/bin 
 #export WORKON_HOME=~/envs
 source /usr/bin/activate.sh
+#if [ "$TMUX" = "" ]; then tmux; fi
