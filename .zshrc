@@ -1,8 +1,8 @@
 # If you come from bash you might have to change your $PATH.
- export PATH=$HOME/bin:/usr/local/bin:$PATH
+# export PATH=$HOME/bin:/usr/local/bin:$PATH
 
 # Path to your oh-my-zsh installation.
-  export ZSH=$HOME/.oh-my-zsh
+  export ZSH=/home/williamzhang/.oh-my-zsh
 
 # Set name of the theme to load. Optionally, if you set this to "random"
 # it'll load a random theme each time that oh-my-zsh is loaded.
@@ -85,12 +85,8 @@ source $ZSH/oh-my-zsh.sh
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 alias ls='ls --color=auto'
 alias vi=vim
-#alias lock="i3lock -i ~/Pictures/lock.png"
-#alias screenshot="scrot -s ~/screenshots/$(date '+%Y%m%d-%H%M%S').jpg"
+alias lock="i3lock -i ~/Pictures/lock.png"
+alias screenshot="scrot -s ~/screenshots/$(date '+%Y%m%d-%H%M%S').jpg"
 export VISUAL=vim
 export EDITOR="$VISUAL"
-#export PS1='[\u@\h \W]\$ '
-#export PATH=$PATH:/home/williamzhang/.gem/ruby/2.3.0/bin 
-#export WORKON_HOME=~/envs
-source /usr/bin/activate.sh
-#if [ "$TMUX" = "" ]; then tmux; fi
+# if [ "$TMUX" = "" ]; then tmux; fi
